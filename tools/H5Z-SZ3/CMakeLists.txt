@@ -4,8 +4,8 @@
 set(HDF5_LIBRARIES "$ENV{AMRIC_H5_HOME}/lib/libhdf5.so")
 set(HDF5_INCLUDE_DIRS "$ENV{AMRIC_H5_HOME}/include")
 
-#message("HDF5LIB PATH:" ${HDF5_LIBRARIES})
-#message("HDF5INCLUDE PATH:" ${HDF5_INCLUDE_DIRS})
+message("HDF5LIB PATH:" ${HDF5_LIBRARIES})
+message("HDF5INCLUDE PATH:" ${HDF5_INCLUDE_DIRS})
 
 add_library(
         hdf5sz3
